@@ -1,17 +1,3 @@
-#block2 {
-    color: #000000;
-    margin: 10px 20px;
-    padding: 50px;
-    float: right;
-    width: 180px;
-}
-#block1 {
-    color: #000000;
-    margin: 10px 20px;
-    padding: 5px;
-    float: left;
-    width: 500px;
-}
 body {
     margin: 60px auto;
     width: 70%;
