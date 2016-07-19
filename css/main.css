@@ -5,6 +5,13 @@
     float: right;
     width: 180px;
 }
+#block1 {
+    color: #000000;
+    margin: 10px 20px;
+    padding: 50px;
+    float: left;
+    width: 180px;
+}
 body {
     margin: 60px auto;
     width: 70%;
