@@ -52,8 +52,8 @@ aside {
 }
 #sidebar-right {
     float: right;
-    width: 100px;
+    width: 20%;
 }
 #content {
-    width: 500px;
+    width: 70%;
 }
