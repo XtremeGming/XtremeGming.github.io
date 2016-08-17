@@ -47,13 +47,11 @@ img {
     border: 5px solid black;
 }
 
-aside {
-    float: right;
-}
 #sidebar-right {
     float: right;
     width: 20%;
 }
 #content {
     width: 70%;
+    float: left;
 }
