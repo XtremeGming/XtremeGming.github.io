@@ -57,3 +57,6 @@ img {
     float: left;
     border-right: 1px solid #d5d5d5;
 }
+#sidebar-right p {
+    font-size: 1em;
+}
