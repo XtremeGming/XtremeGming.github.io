@@ -14,7 +14,7 @@ nav ul li, footer ul li {
     margin-right: 20px;
 }
 nav {
-    border-bottom: 1px solid #d5d5d5 ;
+    border-bottom: 2px solid black ;
     margin-left: 5px;
 }
 a {
@@ -34,7 +34,7 @@ p {
     color: #333;
 }
 footer {
-    border-top: 1px solid #d5d5d5;
+    border-top: 2px solid black;
     font-size: .8em;
 }
 
@@ -60,7 +60,7 @@ img {
 #content {
     width: 75%;
     float: left;
-    border-right: 1px solid #d5d5d5;
+    border-right: 2px solid black;
     margin-left: 5px;
     margin-right: 10px;
 }
