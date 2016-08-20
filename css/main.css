@@ -14,7 +14,8 @@ nav ul li, footer ul li {
     margin-right: 20px;
 }
 nav {
-    border-bottom: 2px solid black ;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
     margin-left: 0px;
 }
 #home-link {
