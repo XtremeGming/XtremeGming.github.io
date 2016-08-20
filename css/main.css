@@ -50,14 +50,14 @@ img {
 }
 
 #sidebar-right {
-    float: right;
+    float: left;
     width: 10%;
     margin-left: 10px;
 }
 
 #content {
     width: 75%;
-    /*float: left;*/
+    float: left;
     border-right: 1px solid #d5d5d5;
     margin-left: 10px;
     margin-right: 10px;
