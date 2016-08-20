@@ -15,7 +15,7 @@ nav ul li, footer ul li {
 }
 nav {
     border-bottom: 1px solid #d5d5d5 ;
-    
+    margin-left: 5px;
 }
 a {
     text-decoration: none;
