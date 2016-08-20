@@ -52,14 +52,15 @@ img {
 #sidebar-right {
     float: right;
     width: 10%;
-    border: 1px solid black;
 }
+
 #content {
     width: 75%;
     float: left;
     border-right: 1px solid #d5d5d5;
     margin-left: 10px;
 }
+
 #sidebar-right p {
     font-size: 1em;
 }
