@@ -52,7 +52,7 @@ img {
 #sidebar-right {
     float: right;
     width: 10%;
-    padding: 0px;
+    margin-left: 10px;
 }
 
 #content {
@@ -60,7 +60,7 @@ img {
     /*float: left;*/
     border-right: 1px solid #d5d5d5;
     margin-left: 10px;
-    padding: 0px;
+    margin-right: 10px;
 }
 
 #sidebar-right p {
