@@ -1,7 +1,7 @@
 body {
     margin: 50px auto;
     width: 980px;
-    background: url(https://web.archive.org/web/20111002033647/http://nerdcubed.co.uk/wp-content/themes/comicpress-boxed/images/classic-background-wide.png) top center repeat-y;
+    background: url("website-background.png") top center repeat-y;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
