@@ -64,6 +64,12 @@ img {
     margin-left: 10px;
 }
 
+#sidebar-left {
+    float: left;
+    width: 60.5px;
+    margin-left: 10px;
+}
+
 #content {
     width: 681px;
     float: left;
