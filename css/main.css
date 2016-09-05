@@ -60,13 +60,13 @@ img {
 
 #sidebar-right {
     float: left;
-    width: 60.5px;
+    width: 58.5px;
     margin-left: 10px;
 }
 
 #sidebar-left {
     float: left;
-    width: 60.5px;
+    width: 58.5px;
     /*margin-left: 10px;*/
     border-right: 2px solid black;
 }
