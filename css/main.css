@@ -74,6 +74,11 @@ img {
     width: 681px;
     float: left;
     border-right: 2px solid black;
+    /*margin-left: 5px;
+    margin-right: 10px;*/
+}
+
+#content p {
     margin-left: 5px;
     margin-right: 10px;
 }
