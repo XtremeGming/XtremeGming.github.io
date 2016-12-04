@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Seventeen"
-date: 2016-12-04
+date: 2016-12-02
 ---
 <img src="/comics/comic17.png" alt="I thanked the man for the food and went on my way." class="inline" />
 <br>
