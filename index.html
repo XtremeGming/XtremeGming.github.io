@@ -35,13 +35,15 @@
 					<div class="blurb">
 						<!-- Text on homepage -->
 						<p>Recent Posts</p>
+						<ul>
 						<li>
-						{% for post in site.posts limit:5 %}
-							<h3>{{ post.title }}</h3>
-                					<p class="blogdate">{{ post.date | date: "%d %B %Y" }}</p>
-                					<div>{{ post.content }}</div>
-						{% endfor %}
+							{% for post in site.posts limit:5 %}
+								<h3>{{ post.title }}</h3>
+                						<p class="blogdate">{{ post.date | date: "%d %B %Y" }}</p>
+                						<div>{{ post.content }}</div>
+							{% endfor %}
 						</li>
+						</ul>
 					</div><!-- /.blurb -->					
 					
 				</section>
