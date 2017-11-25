@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteBase /
+
+
+# Protect log.txt
+RewriteRule ^restricted/ - [L,R=404,NC]
