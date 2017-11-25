@@ -17,6 +17,23 @@
 	 			ga('send', 'pageview');
 
 			</script>
+			<script>
+				function getVotePoll1(int) {
+  					if (window.XMLHttpRequest) {
+    						// code for IE7+, Firefox, Chrome, Opera, Safari
+    						xmlhttp=new XMLHttpRequest();
+  					} else {  // code for IE6, IE5
+   						xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+  					}
+  					xmlhttp.onreadystatechange=function() {
+    						if (this.readyState==4 && this.status==200) {
+     							document.getElementById("poll").innerHTML=this.responseText;
+    						}
+  					}
+  					xmlhttp.open("GET","poll_vote.php?vote="+int,true);
+  					xmlhttp.send();
+				}
+			</script>
 		</head>
 		<body>
 			<div id="page-shell">			
@@ -70,8 +87,16 @@
 					<br>
 					<p><b>Schedule:</b></p>
 					<p>A new comic will be uploaded every weekday (Mon. - Fri.) at 0:01 GMT.</p>
-					<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe1OstJFpf0oBIGfRMHyNQjVIhMB2twWoWM_z_z7VDTZ4I-_A/viewform?embedded=true" width="250" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-				</aside>	
+					/*<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe1OstJFpf0oBIGfRMHyNQjVIhMB2twWoWM_z_z7VDTZ4I-_A/viewform?embedded=true" width="250" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>*/
+					<div id="poll">
+						<p>Test</p>
+						<form>
+							<input type="radio" name="vote" value="0" onclick="getVotePoll1(this.value)"> Yes
+							<input type="radio" name="vote" value="1" onclick="getVotePoll1(this.value)"> No
+						</form>
+					</div>
+							
+				</aside>
 				<footer>
 					<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a><br />The Blocked Nerd by XtremeGming is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
 				</footer>
