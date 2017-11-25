@@ -69,7 +69,7 @@ img {
     float: left;
     border-right: 2px solid black;
     /*margin-left: 5px;*/
-    
+    padding-left: 5px;
 }
 
 #content p {
@@ -126,4 +126,8 @@ img {
 
 .dropdown:hover .dropcont {
     display: block;
+}
+
+.RecentPosts {
+    padding-left: 5px;
 }
