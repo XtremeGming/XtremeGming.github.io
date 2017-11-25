@@ -69,13 +69,14 @@ img {
     float: left;
     border-right: 2px solid black;
     /*margin-left: 5px;*/
+    margin-right: 2px;
 }
 
 #content p {
     margin-left: 5px;
 }
 
-#content 
+ 
 
 #sidebar-right p {
     font-size: 1em;
