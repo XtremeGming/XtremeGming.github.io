@@ -41,7 +41,7 @@ height='20'>
 <img src="https://www.w3schools.com/php/poll.gif"
 width='<?php echo(100*round($no/($no+$yes),2)); ?>'
 height='20'>
-<?php echo(100*round($no/($no+$yes),2)); ?>%
+<?php echo(100*round($no/($no+$yes)),2); ?>%
 </td>
 </tr>
 </table>
