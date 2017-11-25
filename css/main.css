@@ -80,6 +80,10 @@ img {
     margin-left: 0px;
 }
 
+#content h2 {
+    margin-left: 5px
+}
+
 #sidebar-right p {
     font-size: 1em;
 }
