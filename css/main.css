@@ -69,14 +69,16 @@ img {
     float: left;
     border-right: 2px solid black;
     /*margin-left: 5px;*/
-    margin-right: 2px;
+    
 }
 
 #content p {
     margin-left: 5px;
 }
 
- 
+#content p img {
+    margin-left: 0px;
+}
 
 #sidebar-right p {
     font-size: 1em;
@@ -94,7 +96,6 @@ img {
 .HomePosts {
     border-top: 2px solid black;
 }
-<<<<<<< HEAD
 
 .dropdown {
     
@@ -126,5 +127,3 @@ img {
 .dropdown:hover .dropcont {
     display: block;
 }
-=======
->>>>>>> parent of e166374... Create main.css
