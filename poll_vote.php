@@ -1,8 +1,8 @@
-<?php
+ <?php
 $vote = $_REQUEST['vote'];
 
 //get content of textfile
-$filename = "poll_result.txt";
+$filename = "restricted/poll_result.txt";
 $content = file($filename);
 
 //put content in array
@@ -24,7 +24,7 @@ fputs($fp,$insertvote);
 fclose($fp);
 ?>
 
-<p>Result:</p>
+<h2>Result:</h2>
 <table>
 <tr>
 <td>Yes:</td>
@@ -39,9 +39,9 @@ height='20'>
 <td>No:</td>
 <td>
 <img src="https://www.w3schools.com/php/poll.gif"
-width="echo(100*round($no/($no+$yes)));"
-height='20'
-print($no)
+width='<?php echo(100*round($no/($no+$yes),2)); ?>'
+height='20'>
+<?php echo(100*round($no/($no+$yes),2)); ?>%
 </td>
 </tr>
-</table>
+</table> 
