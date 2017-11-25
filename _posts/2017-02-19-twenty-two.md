@@ -2,6 +2,7 @@
 layout: post
 title: "Twenty Two"
 date: 2017-02-19
+tag: comic
 ---
 <img src="/comics/comic22.png" alt="Comic 22" class="inline" />
 <br>
