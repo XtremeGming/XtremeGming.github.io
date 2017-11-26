@@ -62,6 +62,7 @@ img {
     float: left;
     width: 270px;
     margin-left: 10px;
+    text-align: center;
 }
 
 #content {
@@ -86,6 +87,7 @@ img {
 
 #sidebar-right p {
     font-size: 1em;
+    
 }
 
 #page-shell {
