@@ -43,6 +43,15 @@
 										<h2>{{ post.title }}</h3>
 	                							<p class="blogdate">{{ post.date | date: "%d %B %Y" }}</p>
                 								<div>{{ post.content }}</div>
+										<div class="PageNavigation">
+  											
+											{% if page.previous.url %}
+    												<a class="prev" href="{{page.previous.url}}">Previous</a>
+  											{% endif %}
+  											{% if page.next.url %}
+    												<a class="next" href="{{page.next.url}}" style="text-align: right; font-size: 10px; >Next</a>
+  											{% endif %}
+										</div>
 									</div>	
 								<!-- </li> -->
 						{% endfor %}
