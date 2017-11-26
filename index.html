@@ -59,7 +59,7 @@
 									<div class="HomePosts">
 										<a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
 	                							<p class="blogdate">{{ post.date | date: "%d %B %Y" }}</p>
-										<div>{{ post.excerpt }} <a href="{{ post.url }}">More...</a></div>
+										<div>{{ post.excerpt }} <a href="{{ post.url }}"><p>More...</p></a></div>
 									</div>	
 								<!-- </li> -->
 							{% endfor %}
