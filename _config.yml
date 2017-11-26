@@ -1,2 +1,3 @@
 name: XtremeGming
 markdown: kramdown
+excerpt_separator: <!--excerpt cutoff-->
