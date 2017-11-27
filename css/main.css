@@ -2,6 +2,7 @@ body {
     margin: 5px auto;
     width: 980px;
     background: url("/website-background.png") top center repeat-y;
+    font-family: 'Arial', 'Sans-Serif';
 }
 nav ul, footer ul {
     font-family: 'Arial', 'Sans-Serif';
