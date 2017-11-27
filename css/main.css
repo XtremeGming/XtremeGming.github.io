@@ -142,3 +142,9 @@ a p {
     text-decoration: none;
     color: #999;
 }
+
+.DividerBar {
+    height: 2px;
+    width: 150px;
+    margin: auto
+}
