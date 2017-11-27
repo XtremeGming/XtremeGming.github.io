@@ -150,7 +150,11 @@ a p {
     margin: auto
 }
 
-a .navigation {
-    color: #a9a9a9;
+a.navigation {
+    color: white;
     text-shadow: 2px 2px 3px #000000;
+}
+
+a.navigation:hover {
+    color: #FF0000;
 }
