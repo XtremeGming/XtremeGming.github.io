@@ -155,6 +155,6 @@ a.navigation {
     text-shadow: 2px 2px 3px #000000;
 }
 
-a.navigation:hover {
+.navigation:hover {
     color: #FF0000;
 }
