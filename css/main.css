@@ -158,3 +158,8 @@ a.navigation {
 .navigation:hover {
     color: #FF0000;
 }
+
+.navigationli {
+    width: 163px;
+    text-align: center
+}
