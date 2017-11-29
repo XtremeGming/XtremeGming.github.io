@@ -154,6 +154,7 @@ a.navigation {
     color: white;
     text-shadow: 2px 2px 3px #000000;
     display: inline-block;
+    width: 125px;
 }
 
 .navigation:hover {
