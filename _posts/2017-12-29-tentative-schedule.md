@@ -5,6 +5,7 @@ date: 2017-12-29
 tag: blog
 ---
 Happy belated Festivus to all! Also, happy nearly-New Year! So, after another little break, I am back! I have thought over it, and decided that I should post here more often, and thus have come up with a little schedule:
+<!--excerpt cutoff-->
 <ul>
 <li>Sunday: Post a news roundup</li>
 <li>Monday: Post a comic at 0:01 UTC</li>
