@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "2017 Xtremegming Awards"
-date: 2018-01-01
+date: 2018-01-02
 tags: blog award other
 ---
 So, now that 2017 is over, I thought it would be time to look back on the year in gaming and see if I wanted to award games something. So here are my awards for games released in 2017.
