@@ -83,7 +83,11 @@ img {
 }
 
 #content h2 {
-    margin-left: 5px
+    margin-left: 5px;
+}
+
+#content h3 {
+    margin-left: 5px;
 }
 
 #sidebar-right p {
